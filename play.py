@@ -201,8 +201,7 @@ def devmove():
 
 # Searching Deuterium's Move
 def deuterium():
-    engine = chess.engine.SimpleEngine.popen_uci(
-        "F:/PROJECTS/PARALLEL CHESS ENGINE/engines/Deuterium.exe")
+    engine = chess.engine.SimpleEngine.popen_uci("F:/PROJECTS/PARALLEL CHESS ENGINE/engines/Deuterium.exe")
     move = engine.play(board, chess.engine.Limit(time=0.1))
     speak(move.move)
     board.push(move.move)
@@ -210,8 +209,7 @@ def deuterium():
 
 # Searching CDrill's Move
 def cdrill():
-    engine = chess.engine.SimpleEngine.popen_uci(
-        "F:/PROJECTS/PARALLEL CHESS ENGINE/engines/CDrill.exe")
+    engine = chess.engine.SimpleEngine.popen_uci("F:/PROJECTS/PARALLEL CHESS ENGINE/engines/CDrill.exe")
     move = engine.play(board, chess.engine.Limit(time=0.1))
     speak(move.move)
     board.push(move.move)
@@ -219,8 +217,7 @@ def cdrill():
 
 # Searching Stockfish's Move
 def stockfish():
-    engine = chess.engine.SimpleEngine.popen_uci(
-        "F:/PROJECTS/PARALLEL CHESS ENGINE/engines/stockfish.exe")
+    engine = chess.engine.SimpleEngine.popen_uci("F:/PROJECTS/PARALLEL CHESS ENGINE/engines/stockfish.exe")
     move = engine.play(board, chess.engine.Limit(time=0.1))
     speak(move.move)
     board.push(move.move)
@@ -232,7 +229,7 @@ app = Flask(__name__)
 # Introduction lines
 def lines():
     speak(
-        "Hello, my name is number 0613010517, that's right it is the name my creator gave to me. I will be guiding you through out your experience through this game. So without wasting any time Welcome to the Chess World. Enjoy your game. Hope you have fun.")
+        "Hello, my name is number 0613010517,. that's right it is the name my creator gave to me. I will be guiding you through out your experience through this game. So without wasting any time Welcome to the Chess World. Enjoy your game. Hope you have fun.")
 
 
 # Front Page of the Flask Web Page
@@ -340,7 +337,7 @@ def undo():
 @app.route("/cred/", methods=['POST'])
 def cred():
     speak(
-        "This game was developed by Master Tamojit Roy, a Pre-final year student studying in Vellore Institute of Technology and his Team in the Fall Semester 2021-22. He would like to thank his mentor Sudha Maam and his group members Mayank Sharma and Adil Ahmed. He quotes 'Thank you, it wasn't possible without you guys.'")
+        "This game was developed by Master Tamojit Roy, a pre F.Y. student studying in Vellore Institute of Technology and his Team in the year 2021. He would like to thank his mentor Sudha Anabalangam Maam and his group members Adil Ahmed, Mayank Sharma. He quotes 'Thank you, it wasn't possible without you guys.'")
     return main()
 
 
