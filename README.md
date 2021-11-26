@@ -43,7 +43,6 @@ Now send the following link provided by ngrok to the user you wish to play with.
 > 1. Some engines stop working if used rapidly
 > 2. No conditions are applied for playing over the internet, i.e. anyone can play anymove at anytime.
 # Group Members
-> 1. [Arshad Patel](https://github.com/arshadpatel2001)
-> 2. [Nisha Modani](https://github.com/nisha2204)
-> 3. [Prashanth Bijamwar](https://github.com/Prashanth820)
-> 4. [Sarvesh Patil](https://github.com/Patil-Sarvesh)
+> 1. Tamojit Roy (19BCE1156)
+> 2. Mayank Sharma (19BCE1145)
+> 3. Adil Ahmed (19BCE1012)
